@@ -1,0 +1,197 @@
+@font-face {
+  font-family: 'Apex Mk3';
+  src: url('../assets/fonts/ApexMk3-ExtraLight.woff2') format('woff2'),
+    url('../assets/fonts/ApexMk3-ExtraLight.woff') format('woff');
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Apex Mk3';
+  src: url('../assets/fonts/ApexMk3-Medium.woff2') format('woff2'),
+    url('../assets/fonts/ApexMk3-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gontserrat';
+  src: url('../assets/fonts/Gontserrat-Black.woff2') format('woff2'),
+    url('../assets/fonts/Gontserrat-Black.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gontserrat';
+  src: url('../assets/fonts/Gontserrat-ExtraBoldItalic.woff2') format('woff2'),
+    url('../assets/fonts/Gontserrat-ExtraBoldItalic.woff') format('woff');
+  font-weight: 800;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gontserrat';
+  src: url('../assets/fonts/Gontserrat-BlackItalic.woff2') format('woff2'),
+    url('../assets/fonts/Gontserrat-BlackItalic.woff') format('woff');
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gontserrat';
+  src: url('../assets/fonts/Gontserrat-ExtraBold.woff2') format('woff2'),
+    url('../assets/fonts/Gontserrat-ExtraBold.woff') format('woff');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gontserrat';
+  src: url('../assets/fonts/Gontserrat-Bold.woff2') format('woff2'),
+    url('../assets/fonts/Gontserrat-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gontserrat';
+  src: url('../assets/fonts/Gontserrat-BoldItalic.woff2') format('woff2'),
+    url('../assets/fonts/Gontserrat-BoldItalic.woff') format('woff');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gontserrat';
+  src: url('../assets/fonts/Gontserrat-Light.woff2') format('woff2'),
+    url('../assets/fonts/Gontserrat-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gontserrat';
+  src: url('../assets/fonts/Gontserrat-LightItalic.woff2') format('woff2'),
+    url('../assets/fonts/Gontserrat-LightItalic.woff') format('woff');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gontserrat';
+  src: url('../assets/fonts/Gontserrat-ExtraLight.woff2') format('woff2'),
+    url('../assets/fonts/Gontserrat-ExtraLight.woff') format('woff');
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gontserrat';
+  src: url('../assets/fonts/Gontserrat-ExtraLightItalic.woff2') format('woff2'),
+    url('../assets/fonts/Gontserrat-ExtraLightItalic.woff') format('woff');
+  font-weight: 200;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gontserrat';
+  src: url('../assets/fonts/Gontserrat-Italic.woff2') format('woff2'),
+    url('../assets/fonts/Gontserrat-Italic.woff') format('woff');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gontserrat';
+  src: url('../assets/fonts/Gontserrat-Medium.woff2') format('woff2'),
+    url('../assets/fonts/Gontserrat-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gontserrat';
+  src: url('../assets/fonts/Gontserrat-ThinItalic.woff2') format('woff2'),
+    url('../assets/fonts/Gontserrat-ThinItalic.woff') format('woff');
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gontserrat';
+  src: url('../assets/fonts/Gontserrat-Regular.woff2') format('woff2'),
+    url('../assets/fonts/Gontserrat-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Redwing';
+  src: url('../assets/fonts/Redwing-Light.woff2') format('woff2'),
+    url('../assets/fonts/Redwing-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gontserrat';
+  src: url('../assets/fonts/Gontserrat-SemiBold.woff2') format('woff2'),
+    url('../assets/fonts/Gontserrat-SemiBold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gontserrat';
+  src: url('../assets/fonts/Gontserrat-MediumItalic.woff2') format('woff2'),
+    url('../assets/fonts/Gontserrat-MediumItalic.woff') format('woff');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gontserrat';
+  src: url('../assets/fonts/Gontserrat-Thin.woff2') format('woff2'),
+    url('../assets/fonts/Gontserrat-Thin.woff') format('woff');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gontserrat';
+  src: url('../assets/fonts/Gontserrat-SemiBoldItalic.woff2') format('woff2'),
+    url('../assets/fonts/Gontserrat-SemiBoldItalic.woff') format('woff');
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Redwing';
+  src: url('../assets/fonts/Redwing-Medium.woff2') format('woff2'),
+    url('../assets/fonts/Redwing-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
