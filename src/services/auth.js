@@ -15,9 +15,7 @@ export const login = (token) => {
 };
 
 // checks if user is logged in
-export const isAuthenticated = () => {
-  return localStorage.getItem(LOGIN) !== null;
-};
+export const isAuthenticated = () => localStorage.getItem(LOGIN) !== null;
 
 // logout of the system
 export const logout = () => {
