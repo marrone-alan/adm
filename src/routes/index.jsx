@@ -13,6 +13,7 @@ import SignIn from '../pages/SignIn';
 import Access from '../pages/Report/Access';
 import Operational from '../pages/Report/Operational';
 import IPAddress from '../pages/IpAddress';
+import Order from '../pages/Status/Order';
 
 const PrivateRoute = ({ component: Component, ...rest }) => (
   <Route
@@ -33,6 +34,7 @@ const Routes = () => (
     <ChangeRoute>
       <Switch>
         <Route exact path="/login" component={SignIn} />
+        <PrivateRoute exact path="/status/pedido" component={Order} />
         <PrivateRoute exact path="/ip" component={IPAddress} />
         <PrivateRoute exact path="/relatorios/acessos" component={Access} />
         <PrivateRoute

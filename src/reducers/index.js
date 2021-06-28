@@ -9,6 +9,7 @@ import { menu } from './menu';
 import { access } from './report/access.js';
 import { operational } from './report/operational.js';
 import { ipAddress } from './ipAddress.js';
+import { order } from './status/order.js';
 
 export default combineReducers({
   form,
@@ -18,4 +19,5 @@ export default combineReducers({
   access,
   operational,
   ipAddress,
+  order,
 });
