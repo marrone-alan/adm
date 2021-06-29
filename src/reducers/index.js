@@ -11,6 +11,7 @@ import { operational } from './report/operational.js';
 import { ipAddress } from './ipAddress.js';
 import { order } from './status/order.js';
 import { product } from './status/product.js';
+import { system } from './resource/system.js';
 
 export default combineReducers({
   form,
@@ -22,4 +23,5 @@ export default combineReducers({
   ipAddress,
   order,
   product,
+  system,
 });
