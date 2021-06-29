@@ -12,6 +12,7 @@ import { ipAddress } from './ipAddress.js';
 import { order } from './status/order.js';
 import { product } from './status/product.js';
 import { system } from './resource/system.js';
+import { action } from './resource/action.js';
 
 export default combineReducers({
   form,
@@ -24,4 +25,5 @@ export default combineReducers({
   order,
   product,
   system,
+  action,
 });

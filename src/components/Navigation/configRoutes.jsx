@@ -37,8 +37,8 @@ const routes = [
     icon: <Icon path={mdiLaptop} size={1} color="#4c4848" />,
     childRoutes: [
       {
-        desc: 'Módulos',
-        path: '/recursos/modulos',
+        desc: 'Ações',
+        path: '/recursos/acoes',
         profiles: [1],
       },
       {
