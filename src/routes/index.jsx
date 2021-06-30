@@ -17,6 +17,7 @@ import Order from '../pages/Status/Order';
 import Product from '../pages/Status/Product';
 import System from '../pages/Resource/System';
 import Action from '../pages/Resource/Action';
+import Users from '../pages/Users';
 
 const PrivateRoute = ({ component: Component, ...rest }) => (
   <Route
@@ -37,6 +38,7 @@ const Routes = () => (
     <ChangeRoute>
       <Switch>
         <Route exact path="/login" component={SignIn} />
+        <PrivateRoute exact path="/usuarios" component={Users} />
         <PrivateRoute exact path="/recursos/acoes" component={Action} />
         <PrivateRoute exact path="/recursos/sistemas" component={System} />
         <PrivateRoute exact path="/status/pedido" component={Order} />
