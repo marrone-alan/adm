@@ -14,6 +14,9 @@ import { product } from './status/product.js';
 import { system } from './resource/system.js';
 import { action } from './resource/action.js';
 import { users } from './users.js';
+import { account } from './profile/account.js';
+import { reportAccess } from './profile/reportAccess.js';
+import { personalData } from './profile/personalData.js';
 
 export default combineReducers({
   form,
@@ -28,4 +31,7 @@ export default combineReducers({
   system,
   action,
   users,
+  account,
+  reportAccess,
+  personalData,
 });

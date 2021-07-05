@@ -9,6 +9,10 @@ import ChangeRoute from '../helpers/ChangeRoute';
 import Navigation from '../components/Navigation';
 // pages
 import Home from '../pages/Home';
+import Profile from '../pages/Profile';
+import Account from '../pages/Profile/Account';
+import PersonalData from '../pages/Profile/PersonalData';
+import ReportAccess from '../pages/Profile/ReportAccess';
 import SignIn from '../pages/SignIn';
 import Access from '../pages/Report/Access';
 import Operational from '../pages/Report/Operational';
@@ -49,6 +53,18 @@ const Routes = () => (
           exact
           path="/relatorios/operacional"
           component={Operational}
+        />
+        <PrivateRoute exact path="/perfil" component={Profile} />
+        <PrivateRoute exact path="/perfil/minha-conta" component={Account} />
+        <PrivateRoute
+          exact
+          path="/perfil/dados-pessoais"
+          component={PersonalData}
+        />
+        <PrivateRoute
+          exact
+          path="/perfil/relatorio-acesso"
+          component={ReportAccess}
         />
         <PrivateRoute path="*" component={Home} />
       </Switch>

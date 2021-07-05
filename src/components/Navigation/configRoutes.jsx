@@ -3,7 +3,6 @@ import React from 'react';
 import Icon from '@mdi/react';
 import {
   mdiAccountGroup,
-  mdiBookLock,
   mdiLaptop,
   mdiClipboardFlow,
   mdiStore,
@@ -23,12 +22,6 @@ const routes = [
     path: '/usuarios',
     profiles: [1],
     icon: <Icon path={mdiAccountGroup} size={1} color="#4c4848" />,
-  },
-  {
-    desc: 'Acl',
-    path: '/acl',
-    profiles: [1],
-    icon: <Icon path={mdiBookLock} size={1} color="#4c4848" />,
   },
   {
     desc: 'Recursos',
